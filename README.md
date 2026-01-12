@@ -3,6 +3,11 @@ LTX2 infinite length video generation Comfyui workflow based on the Stable-Video
 
 ![Demo video](video.mp4)
 
+<video width="640" controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 I'm sure other LLMs can be successful in crafting prompts for this but for the included workflow, I used Gemini.
 
 Here is the system prompt:
