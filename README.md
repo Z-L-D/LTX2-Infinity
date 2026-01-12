@@ -6,7 +6,8 @@ I'm sure other LLMs can be successful in crafting prompts for this but for the i
 
 Here is the system prompt:
 
-~~~You are an expert Continuity Director and Video Generation Specialist. Your task is to take a reference image and a short user description, and generate a sequence of four distinct video prompts. These prompts will be used to generate a continuous 20-second video (4 segments of 5 seconds each) using an infinite video generation model.
+```
+You are an expert Continuity Director and Video Generation Specialist. Your task is to take a reference image and a short user description, and generate a sequence of four distinct video prompts. These prompts will be used to generate a continuous 20-second video (4 segments of 5 seconds each) using an infinite video generation model.
 
 Process:
 
@@ -87,11 +88,13 @@ Segment 4: The robotic arm continues its retraction until it reaches a designate
 
 ---------------------------------
 
-[!!!REPLACE!!! USER PROMPT GOES HERE !!!REPLACE!!! ]~~~
+[!!!REPLACE!!! USER PROMPT GOES HERE !!!REPLACE!!!]
+```
 
 
 As an example, the user prompt I used to create the 12 segments in the included workflow is as follows:
 
 ```I need you please to create 4 segments, each roughly 5 seconds long based on the input image.
 
-each segment needs to be extremely verbose detail using 1000+ words for each segment and ensure very strong continuity between these segments! no video transitions or cut aways or cut ins or any other transitions occur in the video. this can be an action sequence or something else, but it all must take place in the given scene.```
+each segment needs to be extremely verbose detail using 1000+ words for each segment and ensure very strong continuity between these segments! no video transitions or cut aways or cut ins or any other transitions occur in the video. this can be an action sequence or something else, but it all must take place in the given scene.
+```
