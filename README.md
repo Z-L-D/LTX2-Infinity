@@ -20,9 +20,9 @@ T
 
 Scenario Parameters (Fixed):
 
-Subject: A white racing car speeding along a winding race track.
+Subject: Gather the subject of the frame from the attached image.
 
-Camera Behavior: Strictly "Locked-On/Tracked." The camera moves at the exact velocity of the car. The white car must never leave the frame or be obscured. It is the visual anchor.
+Camera Behavior: Use whatever camera view the user has expressed otherwise default to strictly "Locked-On/Tracked" where the camera moves at the exact velocity of the subject, with it never leaving the frame or be obscured maintaining it as the visual anchor.
 
 Editing: Zero cuts, fades, time-skips, or scene changes. The video is one continuous, uninterrupted take.
 
@@ -68,11 +68,11 @@ Do not describe internal thoughts, character motivations, or narrative arcs.
 
 Describe only Chronological Visuals and Physics:
 
-Ray-Tracing Logic: Describe how light refracts off the curved white metal, the shifting Fresnel effect on the windshield, and the specific evolution of shadows.
+Ray-Tracing Logic Example Request: Describe how light refracts off the curved white metal, the shifting Fresnel effect on the windshield, and the specific evolution of shadows.
 
-Micro-Physics: Describe the compression of the suspension, the vibration of the "GT-R" (or specified) decals, the warping of tire sidewalls under torque, and the aerodynamic shimmer of heat from the exhaust.
+Micro-Physics Example Request: Describe the compression of the suspension, the vibration of the "GT-R" (or specified) decals, the warping of tire sidewalls under torque, and the aerodynamic shimmer of heat from the exhaust.
 
-Environment: Describe the blur of the asphalt texture (aggregate and tar) rushing beneath, the parallax movement of background foliage/barriers, and dust particles interacting with the car's wake.
+Environment Example Request: Describe the blur of the asphalt texture (aggregate and tar) rushing beneath, the parallax movement of background foliage/barriers, and dust particles interacting with the car's wake.
 
 Ensure Absolute Continuity:
 
@@ -94,38 +94,19 @@ N
 distinct segments. Label them clearly with their specific timeframes.
 
 Segment 1: [0s - Ts]
-[Insert 1000+ word hyper-detailed visual description. Establish the tracking shot, the specific texture of the white paint, the road surface, and the initial lighting conditions.]
+[Insert 1000+ word hyper-detailed visual description. Establish the the desired shot, initial lighting conditions and any other criteria the user expresses.]
 
 Segment 2: [Ts - 2Ts]
-[Insert 1000+ word hyper-detailed visual description. Continue immediately from the previous frame. Describe the evolution of the track (e.g., entering a curve), the shift in suspension physics, and the changing reflection of the horizon on the hood.]
+[Insert 1000+ word hyper-detailed visual description. Continue immediately from the previous frame. Describe the evolution of the scene (e.g., entering a curve), the shift in any physics, and the changing reflections.]
 
 ...
 
 Segment [N]: [Concluding Timeframe]
-[Insert 1000+ word hyper-detailed visual description. Maintain the tracking shot until the very final second. Describe the cumulative dust/wear on the vehicle and the final lighting state.]
+[Insert 1000+ word hyper-detailed visual description. Maintain the view the user expresses until the very final second or if other views are prompted. Describe the cumulative changes and the final lighting state.]
 
 Critical Instructions for Generation:
 
-Focus: Maintain the white car as the center of the universe.
-
-Style: Clinical, observational, and sensory-rich. Use terminology related to photography (depth of field, shutter speed/motion blur) and automotive physics (downforce, grip, oversteer).
-
-Verbosity: Exhaust every visual detail. If the car drives straight for 5 seconds, describe the micro-vibrations of the side mirrors, the specific grain of the passing asphalt, and the reflection of clouds moving across the sunroof. Never summarize.
-
-Segment 1: [0s - Ts]
-[Insert 1000+ word hyper-detailed visual description. Establish the tracking shot, the specific texture of the white paint, the road surface, and the initial lighting conditions.]
-
-Segment 2: [Ts - 2Ts]
-[Insert 1000+ word hyper-detailed visual description. Continue immediately from the previous frame. Describe the evolution of the track (e.g., entering a curve), the shift in suspension physics, and the changing reflection of the horizon on the hood.]
-
-...
-
-Segment [N]: [Concluding Timeframe]
-[Insert 1000+ word hyper-detailed visual description. Maintain the tracking shot until the very final second. Describe the cumulative dust/wear on the vehicle and the final lighting state.]
-
-Critical Instructions for Generation:
-
-Focus: Maintain the white car as the center of the universe.
+Focus: Maintain focus as the user describes.
 
 Style: Clinical, observational, and sensory-rich. Use terminology related to photography (depth of field, shutter speed/motion blur) and automotive physics (downforce, grip, oversteer).
 
