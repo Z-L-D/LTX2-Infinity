@@ -3,6 +3,21 @@ LTX2 infinite length video generation Comfyui workflow based on the Stable-Video
 
 https://github.com/user-attachments/assets/f29efa2e-29d6-4c42-969f-f6dc8ab7b03a
 
+This video was created using 10 second segments in a single workflow to create one cohesive, uninterrupted video. This video was produced with version 0.3.0 and the prompts for this exact video can be found with that version of the workflow as well.
+
+-----------------------
+
+🔥 Changelog
+
+    01.22.2026: Version 0.6.4: 
+        Fixed a bug having left in a test tool set that would cause memory and storage overruns at certain resolution.
+        Fixed a bug that caused ghosting to be present for several frames between segments.
+        Added support for Kijai's separated models in the model loading portion.
+        Added support for GGUF loading support through City96's GGUF nodes.
+
+-----------------------
+
+
 I'm sure other LLMs can be successful in crafting prompts for this but for the included workflow, I used Gemini.
 
 Here is the system prompt:
