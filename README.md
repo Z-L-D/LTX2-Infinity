@@ -9,11 +9,11 @@ This video was created using 10 second segments in a single workflow to create o
 
 🔥 Changelog
 
-    01.22.2026: Version 0.6.4: 
-        Fixed a bug having left in a test tool set that would cause memory and storage overruns at certain resolution.
-        Fixed a bug that caused ghosting to be present for several frames between segments.
-        Added support for Kijai's separated models in the model loading portion.
-        Added support for GGUF loading support through City96's GGUF nodes.
+01.22.2026: Version 0.6.4: 
+* Fixed a bug having left in a test tool set that would cause memory and storage overruns at certain resolution.
+* Fixed a bug that caused ghosting to be present for several frames between segments.
+* Added support for Kijai's separated models in the model loading portion.
+* Added support for GGUF loading support through City96's GGUF nodes.
 
 -----------------------
 
